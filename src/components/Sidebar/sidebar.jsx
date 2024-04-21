@@ -19,7 +19,7 @@ const Sidebar = () => {
   return (
     <div className="w-[60px] py-5">
       <div className="flex justify-center my-5">
-        <img src="./Logo.png" alt="logo" />
+        <img src="./logo.png" alt="logo" />
       </div>
 
       <ul>
