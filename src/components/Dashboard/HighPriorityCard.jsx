@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 const HighPriorityCard = () => {
   return (
-    <div className="bg-[#FFFFFF] flex flex-col gap-4 rounded-[12px] shadow py-3 px-3 w-[390px]">
+    <div className="bg-[#FFFFFF] flex flex-col gap-4 rounded-[12px] shadow p-3 flex-grow">
       <div className="flex justify-between">
         <div className="flex items-center gap-2">
           <img

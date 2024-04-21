@@ -2,7 +2,7 @@ import React from 'react';
 
 const TransactionCard = () => {
   return (
-    <div className="flex items-center justify-between gap-2">
+    <div className="flex items-center justify-between gap-2 mt-2">
       <div className="border border-[#CBCBCB] rounded p-2 flex-grow w-1/2">
         <p className="text-[#676666] text-[12px] leading-3 font-[500]">
           Income

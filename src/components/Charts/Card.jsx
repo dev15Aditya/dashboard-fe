@@ -5,9 +5,35 @@ const Card = ({ title }) => {
     <div className="bg-[#FFFFFF] flex flex-col gap-4 rounded-[12px] shadow p-5">
       <div className="font-[400] text-[14px] leading-3">{title}</div>
 
-      {/* Piechart  */}
+      {/* Donut chart  */}
       <div className="flex justify-center">
-        <img src="./Ellipse.png" alt="" className="h-[110px] w-[110px]" />
+        <div
+          style={{
+            background:
+              'conic-gradient(#FFCB49 0deg 90deg, #7464FF 90deg 180deg, #4FD2B5 180deg)',
+            width: '110px',
+            height: '110px',
+            borderRadius: '50%',
+          }}
+          className="flex justify-center items-center"
+        >
+          <div
+            style={{
+              height: '70px',
+              width: '70px',
+              borderRadius: '50%',
+              background: '#FFFFFF',
+            }}
+            className="flex flex-col justify-center items-center"
+          >
+            <p className="font-[400] text-[#676666] leading-3 text-[12px]">
+              Total
+            </p>
+            <p className="text-[#000000] text-[12px] leading-3 font-[500]">
+              123456
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col gap-2">

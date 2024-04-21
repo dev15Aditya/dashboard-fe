@@ -6,10 +6,12 @@ import Sidebar from './components/Sidebar/sidebar';
 function App() {
   return (
     <div className="min-h-[100vh] flex">
-      <Sidebar />
+      <div className="fixed lg:relative">
+        <Sidebar />
+      </div>
 
       <div
-        className="flex flex-wrap w-full"
+        className="flex flex-wrap w-full ml-[60px] lg:ml-0"
         style={{ width: 'calc(100% - 60px)' }}
       >
         <div className="w-full lg:w-3/4">

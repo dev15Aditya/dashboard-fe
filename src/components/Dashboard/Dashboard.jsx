@@ -21,7 +21,8 @@ const Dashboard = () => {
           <img src="./options.png" alt="" />
         </div>
       </div>
-      <div className="flex justify-between flex-wrap">
+
+      <div className="flex justify-center md:justify-between gap-4 md:gap-0 flex-wrap">
         {data.map((item) => (
           <Card key={item} title={item} />
         ))}
@@ -36,7 +37,7 @@ const Dashboard = () => {
         </h1>
         <Button className="h-[30px]">View All &gt;</Button>
       </div>
-      <div className="flex justify-between flex-wrap gap-4">
+      <div className="flex justify-between flex-col lg:flex-row gap-4">
         <HighPriorityCard />
         <HighPriorityCard />
       </div>

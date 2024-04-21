@@ -2,7 +2,7 @@ import React from 'react';
 
 const QuickActions = () => {
   return (
-    <div className="bg-[#FFFFFF] flex justify-between gap-4 rounded-[12px] shadow p-5">
+    <div className="bg-[#FFFFFF] flex justify-between flex-wrap gap-4 rounded-[12px] shadow p-5">
       <div className="flex flex-col items-center">
         <img src="./imp.png" alt="" />
         <div>Create Indents</div>
