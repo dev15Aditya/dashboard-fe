@@ -43,7 +43,7 @@ const Card = ({ title }) => {
         </div>
 
         <div className="bg-gradient-to-r from-[#FFFFFF] to-[#7464FF] rounded w-[172px] flex justify-between p-3">
-          <span className="font-[400] text-[12px] leading-3">Oning</span>
+          <span className="font-[400] text-[12px] leading-3">Ongoing</span>
           <span className="font-[400] text-[12px] leading-3">100</span>
         </div>
 
